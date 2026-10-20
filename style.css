@@ -1165,3 +1165,164 @@ footer {
 .onderzoek-conclusie p:last-child {
     margin-bottom: 0;
 }
+.definitie-onderdeel {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* INFORMATIE FASE 3 */
+
+.ontwerp-informatie {
+    padding: 90px 8%;
+    background-color: white;
+}
+
+.ontwerp-sectie {
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    padding-top: 20px;
+    scroll-margin-top: 100px;
+}
+
+.ontwerp-sectie > span {
+    color: #4da9ed;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.ontwerp-sectie h2 {
+    color: #071d38;
+    font-size: 38px;
+    margin: 10px 0 20px;
+}
+
+.ontwerp-sectie p {
+    color: #5b6780;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* MIN​​DMAP FASE 3 */
+
+.mindmap-afbeelding {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 35px auto 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+}
+
+
+/* FASE 3 - NETTE INFORMATIESECTIES */
+
+.ontwerp-informatie {
+    padding: 70px 8%;
+    background-color: #f5f8fc;
+}
+
+.ontwerp-sectie {
+    max-width: 1000px;
+    margin: 0 auto 35px;
+    padding: 40px 45px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #e5edf5;
+    border-top: 4px solid #4da9ed;
+    box-shadow: 0 8px 25px rgba(7, 29, 56, 0.06);
+    scroll-margin-top: 100px;
+}
+
+.ontwerp-sectie > span {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #4da9ed;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.ontwerp-sectie h2 {
+    margin: 0 0 25px;
+    color: #071d38;
+    font-size: 32px;
+    line-height: 1.3;
+}
+
+.ontwerp-sectie h3 {
+    margin: 30px 0 12px;
+    color: #102f50;
+    font-size: 22px;
+}
+
+.ontwerp-sectie h4 {
+    margin: 22px 0 8px;
+    color: #287dbb;
+    font-size: 18px;
+}
+
+.ontwerp-sectie p {
+    margin: 0 0 18px;
+    color: #52647b;
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+.ontwerp-sectie ul {
+    margin: 15px 0 25px;
+    padding-left: 24px;
+}
+
+.ontwerp-sectie li {
+    margin-bottom: 12px;
+    padding-left: 5px;
+    color: #52647b;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.ontwerp-sectie li::marker {
+    color: #4da9ed;
+}
+
+.mindmap-afbeelding {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 30px auto 0;
+    border-radius: 10px;
+    border: 1px solid #e5edf5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* MOBIEL */
+
+@media (max-width: 768px) {
+    .ontwerp-informatie {
+        padding: 40px 5%;
+    }
+
+    .ontwerp-sectie {
+        padding: 28px 22px;
+        margin-bottom: 25px;
+    }
+
+    .ontwerp-sectie h2 {
+        font-size: 27px;
+    }
+
+    .ontwerp-sectie h3 {
+        font-size: 20px;
+    }
+}
